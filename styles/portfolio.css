@@ -1,2 +1,16 @@
-h1 {color: red;
-    font-family: 'Montserrat', sans-serif;}
+h1 {color: white;
+    font-family: 'Birthstone', cursive;
+    font-size: 96px;
+    text-align: center;
+    margin-top: 100px;
+}
+h2 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+.page-header {
+    background: #7DBFCC;
+    padding: 100px;
+}
