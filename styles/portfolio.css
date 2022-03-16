@@ -1,16 +1,32 @@
+:root {
+    --branding-color: #7DBFCC;
+    --secondary-color: #2A8396;
+    --accent-color: #AAB191;
+    --primary-font: 'Birthstone', cursive;
+    --secondary-font: 'Montserrat', sans-serif;
+}
 h1 {color: white;
-    font-family: 'Birthstone', cursive;
+    font-family: var(--primary-font);
     font-size: 96px;
     text-align: center;
     margin-top: 100px;
 }
 h2 {
     color: white;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--secondary-font);
     font-size: 24px;
     text-align: center;
 }
 .page-header {
-    background: #7DBFCC;
+    background: var(--branding-color);
     padding: 100px;
+}
+.sub-header {
+    background: var(--accent-color);
+    color: white;
+    text-align: center;
+    font-size: 24px;
+font-weight: bold;
+font-family: var(--secondary-font);
+padding: 50px;
 }
