@@ -19,7 +19,6 @@ h2 {
 }
 img {
     border-radius: 5px;
-    max-width: 476px;
 }
 .page-header {
     background: var(--branding-color);
@@ -51,5 +50,4 @@ padding: 50px;
 .body-text {
     font-family: var(--secondary-font);
     font-size: 18px;
-    margin: 10px;
 }
