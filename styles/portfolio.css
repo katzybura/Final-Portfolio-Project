@@ -41,11 +41,13 @@ padding: 50px;
 .project-link {
     color: white;
     background: var(--secondary-color);
-    padding: 15px 30px;
+    padding: 15px;
     border-radius: 5px;
     font-family: var(--secondary-font);
     text-decoration: none;
     font-weight: bold;
+    display: block;
+    text-align: center;
 }
 .body-text {
     font-family: var(--secondary-font);
@@ -59,5 +61,8 @@ padding: 50px;
     }
     .body-text {
         text-align: center;
+    }
+    .project-link {
+        display: none;
     }
 }
