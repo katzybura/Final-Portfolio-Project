@@ -76,6 +76,9 @@ padding: 50px;
     .project-link {
         display: none;
     }
+    .small-project-link {
+        margin-bottom: 30px;
+    }
 }
 @media (min-width: 576px) {
     .small-project-link {
