@@ -93,6 +93,9 @@ margin: 0px 20px;
 .footer {
     text-align: center;
 }
+.footer a {
+    color: white;
+}
 @media (max-width: 576px) {
     .homepage-image {display: none;
     }
