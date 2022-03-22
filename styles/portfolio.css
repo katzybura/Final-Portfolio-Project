@@ -81,6 +81,18 @@ padding: 50px;
 .contact-info {
     text-align: center;
 }
+.contact-icon {
+    background: var(--secondary-color);
+    color: white;
+    padding: 10px 14px;
+    border-radius: 50%;
+font-size: 20px;
+text-align: center;
+margin: 0px 20px;
+}
+.footer {
+    text-align: center;
+}
 @media (max-width: 576px) {
     .homepage-image {display: none;
     }
