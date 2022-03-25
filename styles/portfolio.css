@@ -96,6 +96,11 @@ margin: 0px 20px;
 .footer a {
     color: white;
 }
+.codeLink {
+    font-family: var(--secondary-font);
+    text-align: center;
+    font-size: 14px;
+}
 @media (max-width: 576px) {
     .homepage-image {display: none;
     }
