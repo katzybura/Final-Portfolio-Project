@@ -115,6 +115,15 @@ margin: 0px 20px;
     .small-project-link {
         margin-bottom: 30px;
     }
+    .page-header h1 {
+        line-height: 1;
+    }
+    .about-header {
+        text-align: center;
+    }
+    .about-text {
+        text-align: center;
+    }
 }
 @media (min-width: 576px) {
     .small-project-link {
