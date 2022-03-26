@@ -36,6 +36,7 @@ padding: 30px;
 .body-header {
     font-size: 24px;
     font-family: var(--secondary-font);
+    font-weight: bold;
 }
 .project-link {
     color: white;
@@ -47,7 +48,13 @@ padding: 30px;
     font-weight: bold;
     display: block;
     text-align: center;
+    transition: 200ms;
 }
+.project-link:hover {
+opacity: .7;
+color: white;
+}
+
 .small-project-link {
     color: white;
     background: var(--secondary-color);
@@ -58,6 +65,11 @@ padding: 30px;
     font-weight: bold;
     display: block;
     text-align: center;
+    transition: 200ms;
+}
+.small-project-link:hover {
+    color: white;
+    opacity: .7;
 }
 .body-text {
     font-family: var(--secondary-font);
@@ -76,9 +88,17 @@ padding: 30px;
     font-family: var(--secondary-font);
     font-size: 24px;
     text-align: center;
+    font-weight: bold;
 }
 .contact-info {
     text-align: center;
+}
+.contact-info a {
+    color: black;
+    text-decoration: none;
+}
+.contact-info a:hover {
+    opacity: .7;
 }
 .contact-icon {
     background: var(--secondary-color);
@@ -88,6 +108,10 @@ padding: 30px;
 font-size: 20px;
 text-align: center;
 margin: 0px 20px;
+transition: 200ms;
+}
+.contact-icon:hover {
+    opacity: .7;
 }
 .footer {
     text-align: center;
